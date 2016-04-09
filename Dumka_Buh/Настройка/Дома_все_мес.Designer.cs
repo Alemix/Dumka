@@ -49,10 +49,10 @@
             // 
             // c1StatusBar1
             // 
-            this.c1StatusBar1.Location = new System.Drawing.Point(0, 559);
+            this.c1StatusBar1.Location = new System.Drawing.Point(0, 560);
             this.c1StatusBar1.Name = "c1StatusBar1";
             this.c1StatusBar1.RightPaneItems.Add(this.ribbonButton_Сохранить);
-            this.c1StatusBar1.Size = new System.Drawing.Size(779, 23);
+            this.c1StatusBar1.Size = new System.Drawing.Size(779, 22);
             // 
             // ribbonButton_Сохранить
             // 
@@ -84,7 +84,7 @@
             this.c1DockingTab_дома.Location = new System.Drawing.Point(0, 0);
             this.c1DockingTab_дома.Name = "c1DockingTab_дома";
             this.c1DockingTab_дома.SelectedIndex = 3;
-            this.c1DockingTab_дома.Size = new System.Drawing.Size(779, 559);
+            this.c1DockingTab_дома.Size = new System.Drawing.Size(779, 560);
             this.c1DockingTab_дома.TabIndex = 3;
             this.c1DockingTab_дома.TabsSpacing = 5;
             this.c1DockingTab_дома.TabStyle = C1.Win.C1Command.TabStyleEnum.Office2007;
@@ -96,7 +96,7 @@
             this.c1DockingTabPage_Дома_все_месяцы.Controls.Add(this.c1TrueDBGrid_Кап_рем_все_мес);
             this.c1DockingTabPage_Дома_все_месяцы.Location = new System.Drawing.Point(1, 24);
             this.c1DockingTabPage_Дома_все_месяцы.Name = "c1DockingTabPage_Дома_все_месяцы";
-            this.c1DockingTabPage_Дома_все_месяцы.Size = new System.Drawing.Size(777, 534);
+            this.c1DockingTabPage_Дома_все_месяцы.Size = new System.Drawing.Size(777, 535);
             this.c1DockingTabPage_Дома_все_месяцы.TabIndex = 3;
             this.c1DockingTabPage_Дома_все_месяцы.Text = "Дома все месяцы";
             // 
@@ -120,7 +120,7 @@
             this.c1TrueDBGrid_Кап_рем_все_мес.PreviewInfo.Size = new System.Drawing.Size(0, 0);
             this.c1TrueDBGrid_Кап_рем_все_мес.PreviewInfo.ZoomFactor = 75D;
             this.c1TrueDBGrid_Кап_рем_все_мес.PrintInfo.PageSettings = ((System.Drawing.Printing.PageSettings)(resources.GetObject("c1TrueDBGrid_Кап_рем_все_мес.PrintInfo.PageSettings")));
-            this.c1TrueDBGrid_Кап_рем_все_мес.Size = new System.Drawing.Size(777, 534);
+            this.c1TrueDBGrid_Кап_рем_все_мес.Size = new System.Drawing.Size(777, 535);
             this.c1TrueDBGrid_Кап_рем_все_мес.TabIndex = 4;
             this.c1TrueDBGrid_Кап_рем_все_мес.Text = "Настройка Дома";
             this.c1TrueDBGrid_Кап_рем_все_мес.VisualStyle = C1.Win.C1TrueDBGrid.VisualStyle.Office2007Silver;
