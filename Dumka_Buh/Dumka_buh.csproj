@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3B13D24-D142-4C68-A248-21C5BB92C558}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dumka_Buh</RootNamespace>
+    <AssemblyName>Dumka_Buh</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Dumka\Dumka_buh\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\SERVERGREO\Dumka\Dumka_buh\</InstallUrl>
+    <ApplicationRevision>89</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4EE3B35AA43594659C880D1CE84E04B8A3EB47ED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Dumka_бух_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Dumka.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Excel.2, Version=2.1.20121.232, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.C1Report.2, Version=2.6.20121.54503, Culture=neutral, PublicKeyToken=594a0605db190bb9" />
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20122.22187, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Command.2, Version=2.0.20112.19490, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20122.33277, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1InputPanel.2, Version=2.0.20112.130, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20112.184, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="C1.Win.C1Report.2, Version=2.6.20121.54503, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Ribbon.2, Version=2.0.20112.342, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="C1.Win.C1Schedule.2, Version=2.0.20122.202, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Sizer.2, Version=2.1.20133.79, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1SplitContainer.2, Version=2.0.20122.20, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TrueDBGrid.2, Version=2.0.20112.61226, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SQLServer.ManagedDTS, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SQLServer.ManagedDTS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dumka_бух_DataSet.cs">
+      <DependentUpon>Dumka_бух_DataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dumka_бух_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dumka_бух_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Главная_Думка_Бух.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Главная_Думка_Бух.Designer.cs">
+      <DependentUpon>Главная_Думка_Бух.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="запрос_периода.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="запрос_периода.Designer.cs">
+      <DependentUpon>запрос_периода.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\Дома.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\Дома.Designer.cs">
+      <DependentUpon>Дома.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\изм_ан.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\изм_ан.Designer.cs">
+      <DependentUpon>изм_ан.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\изм_сч.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\изм_сч.Designer.cs">
+      <DependentUpon>изм_сч.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\Дома_все_мес.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\Дома_все_мес.Designer.cs">
+      <DependentUpon>Дома_все_мес.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\Дома_для_Экономистов.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\Дома_для_Экономистов.Designer.cs">
+      <DependentUpon>Дома_для_Экономистов.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\Извещения.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\Извещения.Designer.cs">
+      <DependentUpon>Извещения.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Настройка\Списки_изм.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Настройка\Списки_изм.Designer.cs">
+      <DependentUpon>Списки_изм.cs</DependentUpon>
+    </Compile>
+    <Compile Include="О_программе.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="О_программе.Designer.cs">
+      <DependentUpon>О_программе.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\Дом_зат.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\Дом_зат.Designer.cs">
+      <DependentUpon>Дом_зат.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_свод_Экономисты.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_свод_Экономисты.Designer.cs">
+      <DependentUpon>отч_бух_мес_2_свод_Экономисты.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_пер_2_свод_без_Мат.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_пер_2_свод_без_Мат.Designer.cs">
+      <DependentUpon>отч_бух_пер_2_свод_без_Мат.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_пер_2_свод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_пер_2_свод.Designer.cs">
+      <DependentUpon>отч_бух_пер_2_свод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_свод.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_свод.Designer.cs">
+      <DependentUpon>отч_бух_мес_2_свод.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_мат.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2_мат.Designer.cs">
+      <DependentUpon>отч_бух_мес_2_мат.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_мат_мес.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_мат_мес.Designer.cs">
+      <DependentUpon>отч_мат_мес.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_зат.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_зат.Designer.cs">
+      <DependentUpon>отч_бух_зат.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес_2.Designer.cs">
+      <DependentUpon>отч_бух_мес_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Отчеты\отч_бух_мес.Designer.cs">
+      <DependentUpon>отч_бух_мес.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Главная_Думка_Бух.resx">
+      <DependentUpon>Главная_Думка_Бух.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="запрос_периода.resx">
+      <DependentUpon>запрос_периода.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\Дома.resx">
+      <DependentUpon>Дома.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\изм_ан.resx">
+      <DependentUpon>изм_ан.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\изм_сч.resx">
+      <DependentUpon>изм_сч.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\Дома_все_мес.resx">
+      <DependentUpon>Дома_все_мес.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\Дома_для_Экономистов.resx">
+      <DependentUpon>Дома_для_Экономистов.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\Извещения.resx">
+      <DependentUpon>Извещения.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Настройка\Списки_изм.resx">
+      <DependentUpon>Списки_изм.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="О_программе.resx">
+      <DependentUpon>О_программе.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\Дом_зат.resx">
+      <DependentUpon>Дом_зат.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_мес_2_свод_Экономисты.resx">
+      <DependentUpon>отч_бух_мес_2_свод_Экономисты.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_пер_2_свод_без_Мат.resx">
+      <DependentUpon>отч_бух_пер_2_свод_без_Мат.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_пер_2_свод.resx">
+      <DependentUpon>отч_бух_пер_2_свод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_мес_2_свод.resx">
+      <DependentUpon>отч_бух_мес_2_свод.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_мес_2_мат.resx">
+      <DependentUpon>отч_бух_мес_2_мат.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_мат_мес.resx">
+      <DependentUpon>отч_мат_мес.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_зат.resx">
+      <DependentUpon>отч_бух_зат.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_мес_2.resx">
+      <DependentUpon>отч_бух_мес_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Отчеты\отч_бух_мес.resx">
+      <DependentUpon>отч_бух_мес.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Dumka_бух_DataSet.xsc">
+      <DependentUpon>Dumka_бух_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dumka_бух_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dumka_бух_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dumka_бух_DataSet.xss">
+      <DependentUpon>Dumka_бух_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dumka_бух_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dumka.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="C1.Data.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="C1.Win.C1Ribbon.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

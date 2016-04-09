@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<inputPanel font="Tahoma, 8.25pt">
+  <toolTipSettings />
+  <label name="lblд_год" text="&amp;год:" width="33" />
+  <numericBox name="numд_год" tabStop="True" width="52" minimum="-2147483648" maximum="2147483647" format="0" showSpinButtons="False" readOnly="True" />
+  <label name="lblд_мес" text="&amp;мес:" width="36" />
+  <numericBox name="numд_мес" tabStop="True" width="52" minimum="-2147483648" maximum="2147483647" format="0" showSpinButtons="False" readOnly="True" />
+  <label name="lblзат_выд_код" text="&amp;зат выд код:" width="86" />
+  <numericBox name="numзат_выд_код" tabStop="True" break="Row" minimum="-2147483648" maximum="2147483647" format="0" />
+  <label name="lblист_код" text="&amp;ист код:" width="86" />
+  <numericBox name="numист_код" tabStop="True" break="Row" minimum="-2147483648" maximum="2147483647" format="0" />
+  <label name="lblрас_алг_код" text="&amp;рас алг код:" width="86" />
+  <numericBox name="numрас_алг_код" tabStop="True" break="Row" minimum="-2147483648" maximum="2147483647" format="0" />
+  <separator name="inputSeparator1" break="Row" />
+  <label name="lblсум_сумма" text="&amp;сум сумма:" width="86" />
+  <numericBox name="numсум_сумма" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" />
+  <label name="lblсум_рас" text="с&amp;ум рас:" width="86" />
+  <numericBox name="numсум_рас" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblкол_рас" text="ко&amp;л рас:" width="86" />
+  <numericBox name="numкол_рас" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblсум_разница" text="сум р&amp;азница:" width="86" />
+  <numericBox name="numсум_разница" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblсум_рас_площ" text="сум рас &amp;площ:" width="86" />
+  <numericBox name="numсум_рас_площ" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblкол_рас_площ" text="кол рас пло&amp;щ:" width="86" />
+  <numericBox name="numкол_рас_площ" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblсум_рас_спис" text="сум рас спис:" width="86" />
+  <numericBox name="numсум_рас_спис" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblкол_рас_спис" text="кол рас спис:" width="86" />
+  <numericBox name="numкол_рас_спис" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+  <label name="lblзат_выд_имя" text="за&amp;т выд имя:" width="86" />
+  <textBox name="txtзат_выд_имя" tabStop="True" break="Row" width="200" readOnly="True" />
+  <label name="lblсч_д_код_имя" text="сч д код имя:" width="86" />
+  <textBox name="txtсч_д_код_имя" tabStop="True" break="Row" width="200" readOnly="True" />
+  <label name="lblсч_к_аналитика" text="сч к аналитика:" width="86" />
+  <textBox name="txtсч_к_аналитика" tabStop="True" break="Row" width="200" readOnly="True" />
+  <label name="lblкол_рас_домов" text="кол рас домов:" width="86" />
+  <numericBox name="numкол_рас_домов" tabStop="True" break="Row" minimum="-9223372036854775808" maximum="9223372036854775807" format="0" readOnly="True" />
+</inputPanel>
